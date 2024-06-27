@@ -39,3 +39,10 @@ Project Outline:
     Labor/Invoicing:
         An optional subsystem combining POS attributes, Inventory attributes, and a ticketing system, to track the status of projects for repair shops in various industries,
         and allow them to adjust labor cost as line items for invoicing, which could also be imported into the POS system when applicable.
+
+    !!!PROJECT IS SHIFTING GEARS A BIT!!!
+        Coding language is currently solely python, and after evaluating the scope of things I would like this project to do, and keep things neat, organized, and somewhat presentable,
+        I've decided to restructure the backend from scratch, and present it as a python powered API to handle JSON requests from a react front end. This should enable the end user to easily spin
+        this up in a docker container, and then have a webmin style access point in which to update things via browser onto a local database. This would make things easier for future extensions
+        or features, like if the project decided to incorporate web stores etc. into an optional feature for small business, that way POS-i-i-M could be a one stop do it all solution for 
+        people trying to start a business from scratch, without needing to commit to a subscription based service until they've outgrown what this project can offer, if they ever do.
