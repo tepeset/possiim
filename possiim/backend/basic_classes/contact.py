@@ -19,6 +19,3 @@ class Contact:
             return self.emails    
         def get_contacts(self):
             return (self.phones, self.emails)
-    
-
-        
