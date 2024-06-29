@@ -1,0 +1,9 @@
+import math
+
+def price_adjustment(cost, markup):
+    markup_decimal = markup /100.0
+    markup_amount = cost * markup_decimal
+    unmodified_price = markup_amount + cost 
+    if unmodified_price % 1 != 0.99:
+        price = math.floor(unmodified_price) + 0.99
+    return price
